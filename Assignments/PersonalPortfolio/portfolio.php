@@ -16,9 +16,10 @@
     
     <nav>
         <ul id="navbar">
-            <li class="navv"><a href="default.asp">Home</a></li>
-            <li class="navv"><a href="news.asp">News</a></li>
-            <li class="navv"><a href="contact.asp">Contact</a></li>
+            <li class="navv"><a href="portfolio.php">Home</a></li>
+            <li class="navv"><a href="questionAnswers.php">Assignment Questions</a></li>
+            <li class="navv"><a href="profile.php">My Profile</a></li>
+            <li class="navv"><a href="allUsers.php">All Users</a></li>
         </ul>
     
     </nav>

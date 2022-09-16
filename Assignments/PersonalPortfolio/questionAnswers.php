@@ -35,7 +35,8 @@
         <p>Often times, users don't fill out the form completely correct, for example they might mistype their password/confirmation. What would you do to A) figure out that the information is not correct before inserting it into the database, and B) when it isn't correct would would you have to do to get the user to fix it? More specifically, how will you create a form that preserves the information they typed in and print out the errors?</p>
         <br>
         <h3>Answer:</h3>
-        <p>Here is the answer</p>
+        <p>A: You would need to check if the passwords are the same (if you are asking them to confirm their password) and you would also want to double check their email. The best way is to have them type it twice.</p>
+        <p>B: You need to have the form not delete their information and have them retype it. An error message is also necessary to tell them exactly what they did wrong. Specifically, you would need to use if statements (or case) and then use variables as well.</p>
         <br><br>
 
         <h3>Question 2:</h3><br>
