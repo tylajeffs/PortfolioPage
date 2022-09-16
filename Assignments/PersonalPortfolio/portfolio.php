@@ -81,6 +81,8 @@
 
         <br><br><br><br><br>
 
+        <h2>Sign up for my newsletter!</h2>
+
 
         <form action="/action_page.php">
         <label for="name">Name:</label><br>
