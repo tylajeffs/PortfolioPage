@@ -79,9 +79,20 @@
             ?>
         </h2>
 
-        <br><br><br>
+        <br><br><br><br><br>
 
+
+        <form action="/action_page.php">
+        <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="pass">Password:</label><br>
+            <input type="text" id="pass" name="pass"><br><br>
+            <input type="submit" value="Submit">
+        </form>
         
+        <br><br><br><br>
         
     </main>
 
