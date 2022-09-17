@@ -25,7 +25,6 @@ function connectDB() {
     <ul id="navbar">
         <li class="navv"><a href="portfolio.php">Home</a></li>
         <li class="navv"><a href="questionAnswers.php">Assignment Questions</a></li>
-        <li class="navv"><a href="profile.php">My Profile</a></li>
         <li class="navv"><a href="allUsers.php">All Users</a></li>
         <li class="navv"><a href="signUp.html">Sign Up</a></li>
     </ul>
@@ -40,7 +39,11 @@ function connectDB() {
     while($row = mysqli_fetch_assoc($result)) { ?>
 
     <div>
-        Name: <?php print $row['name'] ?>
+        Name: <?php print $row['name'] ?> <br>
+
+        <a href="profile.php?id=<?php print $row['id']?>">View Profile</a>
+
+        <br><br>
     </div>
 
     <?php } ?>

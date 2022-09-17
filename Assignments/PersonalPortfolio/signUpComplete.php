@@ -12,7 +12,6 @@
         $sql .="'".$_POST['email']."',";
         $sql .="'".sha1($_POST['password'])."');";
         
-    print $sql;
 
     $result = mysqli_query($db, $sql);
     if(!$result) {
@@ -20,22 +19,6 @@
     }
 ?>
 
-<head>
-    <title>Tyla Jeffs Portfolio</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="portfolio.css">
-</head>
-
-<nav>
-    <ul id="navbar">
-        <li class="navv"><a href="portfolio.php">Home</a></li>
-        <li class="navv"><a href="questionAnswers.php">Assignment Questions</a></li>
-        <li class="navv"><a href="profile.php">My Profile</a></li>
-        <li class="navv"><a href="allUsers.php">All Users</a></li>
-        <li class="navv"><a href="signUp.html">Sign Up</a></li>
-    </ul>
-
-</nav>
 
 
 <?php
@@ -63,7 +46,6 @@
     <ul id="navbar">
         <li class="navv"><a href="portfolio.php">Home</a></li>
         <li class="navv"><a href="questionAnswers.php">Assignment Questions</a></li>
-        <li class="navv"><a href="profile.php">My Profile</a></li>
         <li class="navv"><a href="allUsers.php">All Users</a></li>
         <li class="navv"><a href="signUp.php">Sign Up</a></li>
     </ul>
