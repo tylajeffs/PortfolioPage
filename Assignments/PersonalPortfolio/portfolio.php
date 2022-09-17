@@ -22,7 +22,7 @@
             <li class="navv"><a href="questionAnswers.php">Assignment Questions</a></li>
             <li class="navv"><a href="profile.php">My Profile</a></li>
             <li class="navv"><a href="allUsers.php">All Users</a></li>
-            <li class="navv"><a href="signUp.php">Sign Up</a></li>
+            <li class="navv"><a href="signUp.html">Sign Up</a></li>
         </ul>
     
     </nav>
