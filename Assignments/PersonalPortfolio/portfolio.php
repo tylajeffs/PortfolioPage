@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +22,7 @@
             <li class="navv"><a href="questionAnswers.php">Assignment Questions</a></li>
             <li class="navv"><a href="profile.php">My Profile</a></li>
             <li class="navv"><a href="allUsers.php">All Users</a></li>
+            <li class="navv"><a href="signUp.php">Sign Up</a></li>
         </ul>
     
     </nav>
@@ -80,22 +83,7 @@
             ?>
         </h2>
 
-        <br><br><br><br><br>
-
-        <h2>Sign up for my newsletter!</h2>
-
-
-        <form action="/action_page.php">
-        <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="pass">Password:</label><br>
-            <input type="text" id="pass" name="pass"><br><br>
-            <input type="submit" value="Submit">
-        </form>
         
-        <br><br><br><br>
         
     </main>
 
